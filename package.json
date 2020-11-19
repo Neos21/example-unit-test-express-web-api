@@ -1,12 +1,25 @@
 {
   "name": "unit-test-express-web-api",
-  "version": "0.0.0",
-  "private": true,
   "description": "Express で作った WebAPI サーバをユニットテストするための環境サンプル",
+  "private": true,
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "nyc --reporter=text --reporter=html mocha --watch"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/unit-test-express-web-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/unit-test-express-web-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/unit-test-express-web-api/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
   },
   "dependencies": {
     "express": "4.16.4"
@@ -16,15 +29,5 @@
     "mocha": "5.2.0",
     "nyc": "13.1.0",
     "supertest": "3.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Neos21/unit-test-express-web-api.git"
-  },
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Neos21/unit-test-express-web-api/issues"
-  },
-  "homepage": "https://github.com/Neos21/unit-test-express-web-api#readme"
+  }
 }
